@@ -7,7 +7,7 @@ find_package(catkin REQUIRED )
 
 include_directories(include ${Boost_INCLUDE_DIRS} ${catkin_INCLUDE_DIRS})
 catkin_package(
-    DEPENDS include # TODO add dependencies
+    DEPENDS # TODO add dependencies
     CATKIN_DEPENDS # TODO
     INCLUDE_DIRS include # TODO include
     LIBRARIES # TODO
